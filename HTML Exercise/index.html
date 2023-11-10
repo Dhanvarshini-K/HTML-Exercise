@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICON</title>
+    <link rel="styleSheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header class="header">
+   <section class="header_main">
+        <div class="header_title">
+             <p>Welcome to Clicon online eCommerce store.</p>
+        </div>
+        <div class="follow_apps">
+            <p>Follow us:</p>
+            <div class="apps_image">
+            <img src="icons/twitter_icon.png" alt="Twitter">
+            <img src="icons/facebook_icon.png" alt="facebook">
+            <img src="icons/pinterest_icon.png" alt="pinterest">
+            <img src="icons/reddit_icon.png" alt="reddit">
+            <img src="icons/youtube_icon.png" alt="youtube">
+            <img src="icons/instagram_icon.png" alt="instagram">
+        </div>       
+        <div class="vertical_line"></div>
+            <select id="language"><option>ENG</option></select>
+            <select id="currency"><option>USD</option></select> 
+        </div>
+    </section>
+    <section class="subheader_main">
+        <div class="clicon_container">
+            <img src="icons/logo_icon.png" alt="logo" class="logo"/>
+            <h2>CLICON</h2>
+        </div>
+        <div class="search_input">
+            <input type="search" placeholder="Search for anything..."/>
+            <button><i class="fa fa-search" aria-hidden="true"></i></button> 
+        </div>
+        <div class="user_profile">
+            <img src="icons/carts_icon.png" alt="cart" id="cart_image">
+            <span>2</span>
+            <img src="icons/likes_icon.png" alt="like" id="like_image">
+            <img src="icons/avatar_icon.png" alt="avatar">
+        </div>
+    </section>  
+</header>
+
+<div class="hero_page">
+    <div class="quick_links_container">
+        <div class="quick_links_navigation">
+            <div class="all_category">
+                <select id="all_category">
+                <option>
+                    All Category
+                </option>
+                </select>
+            </div>
+            <div class="track_order">
+                <img src="icons/location_icon.png" alt="location">
+                <a>Track Order</a>
+            </div>
+            <div class="compare">
+                <img src="icons/compare_icon.png" alt="compare">
+                <a>Compare</a>
+            </div>
+            <div class="customer_support">
+                <img src="icons/customer_icon.png" alt="customer">
+                <a>Customer Support</a>
+            </div>
+            <div class="need_help">
+                <img src="icons/need_help_icon.png" alt="help">
+                <a>Need Help</a>
+            </div>
+        </div>
+        <div class="quick_contact">
+            <img src="icons/contact_icon.png" alt="contact">
+            <a>+1-202-555-0104</a>
+        </div>
+    </div>
+
+    <div class="checkout_page">
+        <img src="icons/home_icon.png" alt="home">
+        <a>Home</a>
+        <img src="icons/forward_arrow_icon.png" alt="next_icon">
+        <a>Shopping Card</a>
+        <img src="icons/forward_arrow_icon.png" alt="next_icon">
+        <a id="Checkout_text">Checkout</a>
+    </div>
+    <div class="user_data">
+        <section class="billing_information">
+             <form>
+                <h4>Billing Information</h4>
+            <div class="user_category">
+            <div class="user_name">
+                <label>User name</label>
+                <div class="user_name_input">
+                    <input type="text" placeholder="First name" style="color: light grey;"/>
+                    <input type="text" placeholder="Last name"/>
+                </div>
+            </div>
+            <div class="company_name">
+                <label>Company Name <span>(Optional)</span></label>
+                <input type="text"/>
+            </div>
+             </div>
+            <div class="address">
+                <label>Address</label>
+                <input type="text"/>
+            </div>
+            <div class="location">
+                <div class="country">
+                    <label>Country</label>
+                    <select>
+                        <option>
+                            Select...
+                        </option>
+                    </select>
+                </div>
+            <div class="region_state">
+                <label>Region/State</label>
+                <select>
+                    <option>
+                        Select...
+                    </option>
+                </select>
+            </div>
+            <div class="city">
+                <label>City</label>
+                <select>
+                    <option>
+                        Select...
+                    </option>
+                </select>
+            </div>
+            <div class="zip_code">
+                <label>Zip Code</label>
+                <input type="text"/>
+            </div>
+            </div>
+            <div class="user_contact">
+                <div class="email">
+                <label>Email</label>
+                <input type="text"/>
+            </div>
+            <div class="phone_number">
+                <label>Phone Number</label>
+                <input type="text"/>
+            </div>
+            </div>
+            <div class="ship_address">
+                <input  type="checkbox"/>
+                <p>Ship into different address</p>
+            </div>
+            <div class="payment_option">
+                <div class="payment">
+                    <h4>Payment Option</h4>
+            </div>
+            <div class="choose_cards">
+                <div class="cash_on_delivery">
+                    <img src="icons/dollar_icon.png" alt="dollar">
+                    <p>Cash on Delivery</p>
+                    <input type="radio" name="payment_method"/>
+                </div>
+                <div class="payment_vertical_line"></div>
+                <div class="venmo">
+                    <img src="icons/venmo_icon.png" alt="venmo">
+                    <p>Venmo</p>
+                    <input type="radio" name="payment_method"/>
+                </div>
+                <div class="payment_vertical_line"></div>
+                <div class="paypal">
+                    <img src="icons/paypal_icon.png" alt="paypal">
+                    <p>Paypal</p>
+                    <input type="radio" name="payment_method"/>
+                </div>
+                <div class="payment_vertical_line"></div>
+                <div class="amazon_pay">
+                    <img src="icons/amazon_icon.png" alt="amazon">
+                    <p>Amazon Pay</p>
+                    <input type="radio" name="payment_method"/>
+                </div>
+                <div class="payment_vertical_line"></div>
+                <div class="debit_credit">
+                    <img src="icons/debit_icon.png" alt="debit">
+                    <p>Debit/Credit Card</p>
+                    <input type="radio" name="payment_method" id="debit_button"/>
+                </div>
+                 </div>
+                <div class="card_payment">
+                <div class="name_on_card">
+                    <label>Name on Card</label>
+                    <input type="text"/>
+                </div>
+                <div class="card_number">
+                    <label>CardNumber</label>
+                    <input type="text"/>
+                </div>
+                <div class="validation">
+                    <div class="expire_date">
+                        <label>Expire Date</label>
+                        <input type="text" placeholder="DD/YY" />
+                    </div>
+                    <div class="cvv">
+                        <label>CVV</label>
+                        <input type="text"/>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="additional_information">
+                    <h4>Additional Information</h4>
+                    <div class="order_notes">
+                        <p>Order Notes<span> (Optional)</span></p>
+                        <input type="text" placeholder="Notes about your order, e.g.special notes for delivery" id="additional_placeholder"/>
+                    </div>
+                </div>
+                </form>
+            </section>
+    <aside>
+    <section class="order_summary">
+        <h4>Order Summary</h4>
+        <div class="order_image">
+          <img src="icons/tv_icon.png" alt="tv">
+          <div class="order_name">
+              <p>Canon EOS 1500D DSLR Camera Body+  18-... </p>
+              <p>1 x <span id="price">$70</span></p>
+          </div>
+        </div>
+        <div class="order_image">
+            <img src="icons/headphone-icon.png" alt="tv">
+            <div class="order_name">
+                <p>Wired Over-Ear Gaming Headphones with U... </p>
+                <p>3 x <span id="price">$250</span></p>
+            </div>
+          </div>
+          <div class="order_invoice">
+            <div class="sub_total">
+                <p>Sub-total</p>
+                <h5>$320</h5>
+            </div>
+            <div class="shipping">
+                <p>Shipping</p>
+                <h5>Free</h5>
+            </div>
+            <div class="discount">
+                <p>Discount</p>
+                <h5>$24</h5>
+            </div>
+            <div class="tax">
+                <p>Tax</p>
+                <h5>$61.99</h5>
+            </div>
+          </div>
+          <div class="empty_horizontal_line"></div>
+          <div class="order_total">
+            <h4>Total</h4>
+            <h4>$357.99 USD</h4>
+          </div>
+          <div class="place_order">
+            <button id="place_order_button">
+                <p>PLACE ORDER</p>
+                <img src="icons/order_next_icon.png" alt="next">
+            </button>  
+          </div>
+        </section>
+    </aside>
+    </div>
+</div>
+
+<footer class="footer">
+<section class="footer_main">
+    <div class="contact_information">
+    <div class="footer_title">
+        <img src="icons/footer_icon.png" alt="footer">
+        <h2>CLICON</h2>
+    </div>
+    <p>Customer Supports:</p>
+    <a>(629)555-0129</a>
+    <p>4517 Washington Ave.</p>
+    <p>Manchestor,Kentucky 39495</p>
+    <a>info@kinbo.com</a>
+    </div>
+    <div class="top_category">
+        <h4>TOP CATEGORY</h4>
+        <a>Computer & Laptop</a>
+        <a>SmartPhone</a>
+        <a>HeadPhone</a>
+        <div class="accessories">
+            <div class="horizontal_line"></div>
+            <h5>Accessories</h5>
+        </div>
+        <a>Camera & Photo</a>
+        <a>Tv & Homes</a>
+        <div class="browse_all_product">
+            <a>Browse All product</a>
+            <a><img src="icons/right_arrow_icon.png" alt="arrow_right"></a>
+        </div>
+    </div>
+    <div class="quick_links">
+        <h4>QUICK LINKS</h4>
+        <a>Shop Product </a>
+        <a>Shoping Cart</a>
+        <a>Wishlist</a>
+        <a>Compare</a>
+        <a>Track Order</a>
+        <a>Customer Help</a>
+        <a>About Us</a>
+    </div>
+    <div class="download_app">
+        <h4>DOWNLOAD APP</h4>
+        <button>
+            <div class="playstore_container">
+                <img src="icons/playstore_icon.svg" alt="playstore">
+                <div>
+                    <p>Get it now</p>
+                    <h5>Google Play</h5>
+                </div>
+            </div>
+        </button>
+        <button>
+            <div class="app_store">
+                <img src="icons/apple_icon.svg" alt="apple">
+                <div>
+                    <p>Get it now</p>
+                    <h5> App Store</h5>
+                </div>
+            </div>
+        </button>
+    </div>
+    <div class="popular_tag">
+        <h4>POPULAR TAG</h4>
+    <div>
+        <button>Game</button>
+        <button>iPhone</button>
+        <button>TV</button>
+        <button>Asus Laptops</button>
+    </div>
+    <div>
+        <button>Macbook</button>
+        <button>SSD</button>
+        <button id="graphics_card">Graphics Card</button>
+    </div>
+    <div>
+        <button>Power Bank</button>
+        <button>Smart TV</button>
+        <button>Speaker</button>
+    </div>
+    <div>
+        <button>Tablet</button>
+        <button>Microwave</button>
+        <button>Samsung</button>
+    </div>
+    </div> 
+</section>
+<section class="template_cookie">
+    <p>Kinbo-eCommerce Template ⓒ 2021. Design by Templatecookie</p>
+</section>
+</footer>  
+</body>
+</html>

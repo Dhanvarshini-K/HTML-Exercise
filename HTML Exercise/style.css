@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #186491;
+    display: flex;
+    flex-direction: column;
+    color: white;   
+
+}
+.header_main,.subheader_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    border-top: 1px solid #2f89c5;
+}
+.apps_image > img{
+    width: 19px;
+}
+.follow_apps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+#language,
+#currency{
+    background-color: #186491;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+ .vertical_line{
+  border-left: 1px solid #2f89c5;
+  height: 30px;
+    
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.clicon_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.search_input > input{
+    width: 450px;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+}
+.search_input{
+    display: flex;
+    flex-direction: row;  
+}
+button{
+    height: 36px;
+    width: 30px;
+    border: none;
+    background-color: white;
+    align-items: center;
+}
+#cart_image{
+    width: 25px;
+}
+.user_profile{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    position: relative;
+    cursor: pointer;
+}
+.user_profile>span{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    width: 13px;
+    height: 12px;
+    font-size: 10px;
+    position: absolute;
+    right: 95px;
+}
+.footer_main
+{
+    background-color: #212325;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  padding: 20px ;
+  cursor: pointer;
+}
+.footer_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_title > img{
+    width: 40px;
+    height: 40px;
+}
+.footer_title>h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact_information a , 
+.accessories > h5 ,
+.top_category h4,
+.accessories > h5,
+.quick_links> h4,
+.download_app > h4,
+.download_app h5,
+.popular_tag>h4{
+    color: white;
+}
+.contact_information p,
+.top_category a,
+.quick_links a,
+.download_app p,
+.template_cookie > p
+{
+    color: #a1a1a2;
+}
+.contact_information,
+.top_category,
+.quick_links,
+.download_app,
+.popular_tag{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.horizontal_line{
+    width: 20px;
+    height: 2px;
+    background-color: yellow;
+}
+.accessories,
+.browse_all_product{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 5px;
+}
+.browse_all_product a{
+    color: yellow;
+}
+.browse_all_product img{
+    width: 20px;
+    height: 30px;
+}
+.download_app button,
+.app_store{
+    background-color: #303639;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+
+}
+.playstore_container,
+.app_store{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+}
+.popular_tag button{
+    width: 110px;
+    height: 30px;
+    background-color: #212325;
+    border: 1px solid #303639 ;
+    color: white;
+    cursor: pointer;
+}
+#graphics_card{
+    border-color: white;
+    background-color: #303639;
+}
+.template_cookie{
+    border-top: 1px solid #303639 ;
+    background-color: #212325;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+  padding: 20px ;
+  cursor: pointer;
+}
+.quick_links_navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+.track_order,
+.compare,
+.customer_support,
+.need_help,
+.quick_contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+.quick_links_navigation img,
+.checkout_page img,
+.quick_contact img {
+    width: 16px;
+}
+
+#all_category {
+    background-color:#dfdfe4 ;
+    color: #0e0e0e;
+    border: none;
+    outline: none;  
+    padding: 10px 5px;
+}
+.track_order > a,
+.compare > a,
+.customer_support > a,
+.need_help > a{
+color: #595964;
+font-size: 14px;
+}
+
+.quick_links_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+.checkout_page{
+    background-color:#dfdfe4 ;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 19px 50px;
+    color:#767680 ;
+    cursor: pointer;
+ 
+}
+#Checkout_text{
+    color:#05a3ff
+}
+.billing_information  input{
+    padding: 8px;
+    outline: none;
+    border: 1px solid lightgray;
+   
+}
+.user_category{
+    display: flex;
+     gap: 22px;
+}
+.user_name,
+.company_name,
+.address,
+.zip_code,
+.email,
+.phone_number,
+.name_on_card,
+.card_number,
+.expire_date,
+.cvv
+
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.country,
+.region_state,
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;  
+    gap: 20px;
+    padding: 30px;
+    
+}
+.location,
+.user_contact{
+    display: flex;
+   justify-content: space-between;
+}
+.location select{
+    padding: 5px;
+    color: grey; 
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+.ship_address{
+    display: flex;
+    gap: 10px;
+}
+
+.validation input{
+    width: 250px;
+    border: 1px solid lightgray;
+}
+.company_name input{
+    width: 350px;
+    border: 1px solid lightgray;
+  
+}
+.user_contact input{
+    width: 300px;
+    border: 1px solid lightgray;
+    
+}
+.choose_cards{
+    display: flex;
+    align-items: center;
+}
+.choose_cards input,
+.ship_address input{
+    cursor: pointer;
+}
+.choose_cards img{
+    width: 30px;
+}
+.cash_on_delivery,
+.venmo,
+.paypal,
+.amazon_pay,
+.debit_credit
+{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.payment_option{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+}
+.payment_vertical_line{
+  border-right: 1px solid lightgray;
+  height: 80px;
+}
+.payment_option > h4{
+    padding: 10px 20px;
+}
+.user_data{
+    display: flex;
+    padding: 0 20px;
+}
+.user_name_input{
+    display: flex;
+    gap: 20px;
+}
+.company_name span,
+.order_notes span{
+    color: grey;
+}
+.card_payment{
+    padding: 20px;
+    border-top: 1px solid lightgray ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.validation{
+    display: flex;
+   justify-content: space-between;
+}
+.payment{
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+.order_summary{
+    border: 1px solid lightgray;
+    margin: 40px;
+    padding: 14px;
+    border-radius: 2%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.order_summary img{
+    width: 40px;
+}
+.order_image,
+.sub_total,
+.shipping,
+.discount,
+.tax,
+.order_total{
+    display: flex;
+    gap: 10px; 
+    justify-content: space-between;
+}
+.order_name {
+    font-size: 12px; 
+}
+.order_name,
+.order_invoice{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#price{
+    color: #186491;
+}
+.order_invoice p{
+    font-size: 12px;
+    color: grey;
+}
+.empty_horizontal_line{
+    border: 1px solid lightgray;
+    width: 300px;
+}
+.place_order button{
+    background-color: #FA8232;
+    width: 300px;
+    color: white;
+   
+}
+#place_order_button{
+    display: flex;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.place_order img{
+    width: 20px;
+}
+.additional_information{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-content: flex-start;
+
+}
+.order_notes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-content: flex-start;
+   position: relative;
+  
+}
+.order_notes input{
+    padding: 10px 10px 20px;
+    width: 500px;
+    height: 100px;
+    border-radius: 2%;
+}
+.order_notes input::placeholder{
+    position: absolute;
+    top: 10px;
+    
+}
